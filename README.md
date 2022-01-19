@@ -33,4 +33,8 @@ mytodo> python manage.py runserver
 ![image](https://user-images.githubusercontent.com/79923887/150197446-7c269fb3-d9fb-463d-849b-c1136cb4ee85.png)
 ![image](https://user-images.githubusercontent.com/79923887/150197476-d5856dd3-04a5-4ee5-aef9-a2e6a280fbfb.png)
 ![image](https://user-images.githubusercontent.com/79923887/150197485-45360d35-f3e6-4393-86c3-03ecbba07e01.png)
+![image](https://user-images.githubusercontent.com/79923887/150197604-93055fe6-ba03-4794-a546-ef4370a63de8.png)
+![image](https://user-images.githubusercontent.com/79923887/150197619-0e23075c-934c-4689-84e3-103443471347.png)
+![image](https://user-images.githubusercontent.com/79923887/150197752-a18393a7-5dcd-4e6d-8f9a-4323e83bb428.png)
+
 
