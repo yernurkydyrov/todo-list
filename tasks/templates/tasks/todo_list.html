@@ -1,0 +1,49 @@
+{% extends 'tasks/base.html' %}
+
+{% block title %}
+ToDO List
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="container">
+	<div class="d-flex justify-content-center">
+		<h1>Task management</h1>
+	</div>
+	<hr>
+
+	<table>
+		{% for i in todo %}
+		<tr>
+			<div style="display:inline-block; float:left; width: 80%;">
+				<div class=" col-8">
+					<div class="alert alert-warning mt-2">
+						<h3>{{ i.id }}. {{ i.title }}</h3>
+						<p>{{ i.text }}</p>
+					</div>
+				</div>
+				<div class="col-4">
+					<!--<td><a style="margin-right: 15px; margin-top: 50px; margin-bottom: 50px;"
+							href="{% url 'todo-detail' i.id%}" class="btn btn-info">View</a>
+					</td>-->
+					<td><a style="margin-right: 15px;  margin-top: 50px; margin-bottom: 50px;" href="{% url 'todo-create' %}"
+							class="btn btn-success">Add</a></td>
+					<td><a style="margin-right: 15px;  margin-top: 50px; margin-bottom: 50px;"
+							href="{% url 'todo-update' i.id %}" class="btn btn-primary">Update</a>
+					</td>
+					<td><a style="margin-right: 15px;  margin-top: 50px; margin-bottom: 50px;"
+							href="{% url 'todo-delete' i.id %}" class="btn btn-danger">Delete</a>
+					</td>
+				</div>
+			</div>
+		</tr>
+		{% empty %}
+		<h3>No task in the list</h3>
+		<a href="{% url 'todo-create' %}">Add new</a>
+		{% endfor %}
+	</table>
+</div>
+
+{% endblock %}

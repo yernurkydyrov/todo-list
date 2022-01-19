@@ -1,0 +1,26 @@
+{% extends 'tasks/base.html' %}
+
+{% block title %}
+Create an Account
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="container">
+	<div class="d-flex justify-content-center">
+		<h1>Register</h1>
+	</div>
+
+
+	<form method="POST" class="form-group">
+		{% csrf_token %}
+		{{ form|crispy }}<br><br>
+		<button type="submit" class="btn btn-success">Register</button>
+		<p><a href="{% url 'login' %}">Have an account</a></p>
+
+	</form>
+</div>
+
+{% endblock %}
