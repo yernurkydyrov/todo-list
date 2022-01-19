@@ -26,4 +26,11 @@ mytodo> python manage.py runserver
 # 1) In order to log in to the server, we need to set a username and password and create an account. To do this, enter this code into the command line.
 # 2) Next, go to our server and log in using our username and password. Also, in order to enter the login page, we need to register admin at the end of our address 
 # 3) You can add any task to your glider and also easily delete it.
-<img src = ""
+![image](https://user-images.githubusercontent.com/79923887/150197251-87094e7d-2a8d-401a-944d-6d796e1bb21d.png)
+![image](https://user-images.githubusercontent.com/79923887/150197264-32e08a2b-8858-46b2-97e4-0cd75176f642.png)
+![image](https://user-images.githubusercontent.com/79923887/150197289-4f22a1a4-ac89-4989-8474-271bfee326d8.png)
+![image](https://user-images.githubusercontent.com/79923887/150197321-45cecb8a-e801-421a-9bb9-b2831bd48766.png)
+![image](https://user-images.githubusercontent.com/79923887/150197446-7c269fb3-d9fb-463d-849b-c1136cb4ee85.png)
+![image](https://user-images.githubusercontent.com/79923887/150197476-d5856dd3-04a5-4ee5-aef9-a2e6a280fbfb.png)
+![image](https://user-images.githubusercontent.com/79923887/150197485-45360d35-f3e6-4393-86c3-03ecbba07e01.png)
+
